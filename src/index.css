@@ -1,0 +1,48 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font: 400 1rem Roboto, sans-serif;
+  color: #f4f4f5;
+}
+
+#root {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: #18181b;
+}
+
+.wrapper {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.wrapper button {
+  padding: 0.75rem 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 0;
+  background-color: #3f3f46;
+  transition: background-color 300ms linear;
+  cursor: pointer;
+  border-radius: 4px;
+  color: inherit;
+  font-size: 1.25rem;
+}
+
+.wrapper button:hover {
+  background-color: #27272a;
+}
+
+.wrapper span {
+  font-size: 2rem;
+}
