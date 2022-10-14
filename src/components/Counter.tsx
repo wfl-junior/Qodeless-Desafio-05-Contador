@@ -15,29 +15,29 @@ export const Counter: React.FC<CounterProps> = () => {
 
   return (
     <div className="wrapper">
-      <button title="Decrementar" onClick={() => decrement(100)}>
+      <button title="Decrementar 100" onClick={() => decrement(100)}>
         -100
       </button>
 
-      <button title="Decrementar" onClick={() => decrement(10)}>
+      <button title="Decrementar 10" onClick={() => decrement(10)}>
         -10
       </button>
 
-      <button title="Decrementar" onClick={() => decrement(1)}>
+      <button title="Decrementar 1" onClick={() => decrement(1)}>
         -1
       </button>
 
       <span>{count}</span>
 
-      <button title="Incrementar" onClick={() => increment(1)}>
+      <button title="Incrementar 1" onClick={() => increment(1)}>
         +1
       </button>
 
-      <button title="Incrementar" onClick={() => increment(10)}>
+      <button title="Incrementar 10" onClick={() => increment(10)}>
         +10
       </button>
 
-      <button title="Incrementar" onClick={() => increment(100)}>
+      <button title="Incrementar 100" onClick={() => increment(100)}>
         +100
       </button>
     </div>
